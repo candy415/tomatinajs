@@ -1,10 +1,10 @@
 /*
  * @Author: huwanfei
  * @Date: 2022-11-08 11:26:29
- * @LastEditTime: 2022-12-08 14:57:39
+ * @LastEditTime: 2024-01-19 11:51:15
  * @LastEditors: huwanfei
  * @Description:  rollup打包
- * @FilePath: /autobots-equipment-depot-js/rollup.config.js
+ * @FilePath: /tomatinajs/rollup.config.js
  */
 
 import resolve from 'rollup-plugin-node-resolve'
@@ -17,7 +17,7 @@ export default [
   {
     input: 'src/index.ts',
     output: {
-      name: 'depot',
+      name: 'tomatinajs',
 			file: pkg.browser,
 			format: 'umd'
     },

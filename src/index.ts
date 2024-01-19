@@ -16,6 +16,7 @@ import { setCache, getCache, removeCache, removeAll } from './session';
 import { isPhone, ispassWord1, ispassWord2, isCode, isEmail, isCard, isName, isMobileOrPhone, isLongitude, isLatitude } from './validate';
 import addObjectToArray from './addObjectToArray'
 import { recursionRouter, convert } from './filterRouterData'
+import thousandsDivide from './thousandsDivide'
 
 export default {
   urlGetParam,
@@ -27,5 +28,6 @@ export default {
   setCache, getCache, removeCache, removeAll,
   isPhone, ispassWord1, ispassWord2, isCode, isEmail, isCard, isName, isMobileOrPhone, isLongitude, isLatitude,
   addObjectToArray,
-  recursionRouter, convert
+  recursionRouter, convert,
+  thousandsDivide
 }
