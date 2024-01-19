@@ -1,0 +1,12 @@
+# default
+node_modules
+/dist
+/coverage
+/example
+
+# misc
+.DS_Store
+
+# Editor directories and files
+.idea
+.vscode
